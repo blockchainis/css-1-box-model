@@ -1,10 +1,11 @@
-import GlobalStyle from "./GlobalStyle";
+import styled from "styled-components";
+
+const Box = styled.div``;
 
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <div>안녕</div>
+      <Box>첫번째 상자야아아</Box>
     </>
   );
 }
